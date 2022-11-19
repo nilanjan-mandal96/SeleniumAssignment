@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteName">
+    <listeners>
+        <listener class-name="com.TestVagrant.base.Listeners"/>
+    </listeners>
+    <test thread-count="5" name="TestName">
+        <classes>
+            <class name="com.TestVagrant.testCases.verifyMovieDetailsTest">
+                <methods>
+                    <include name="verifyMovie"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
