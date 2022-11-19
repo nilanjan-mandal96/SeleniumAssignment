@@ -1,0 +1,102 @@
+2022-11-19 11:20:02,181 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully set properties data to be used
+2022-11-19 11:20:04,930 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully passed data from excel to @dataprovider map
+2022-11-19 11:20:04,956 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully passed data from excel to @dataprovider map
+2022-11-19 11:32:13,359 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully set properties data to be used
+2022-11-19 11:32:17,316 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully passed data from excel to @dataprovider map
+2022-11-19 11:32:17,343 [main] INFO  com.TestVagrant.utils.dataSetup - Successfully passed data from excel to @dataprovider map
+2022-11-19 11:32:19,745 [main] INFO  com.TestVagrant.utils.customUtils - Successfully opened site : https://en.wikipedia.org/wiki/Main_Page
+2022-11-19 11:32:19,840 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: Welcome_to_Wikipedia]
+2022-11-19 11:32:19,841 [main] INFO  com.TestVagrant.pageObjects.wikiLandingPage - WIKI Landing Page Loaded
+2022-11-19 11:32:19,903 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:19,969 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:20,005 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:20,085 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully typed [Pushpa: The Rise] on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:20,253 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: (//div[@class='suggestions-results']/a/div/span[contains(.,'Pushpa: The Rise')])[1]]
+2022-11-19 11:32:21,407 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: (//div[@class='suggestions-results']/a/div/span[contains(.,'Pushpa: The Rise')])[1]]
+2022-11-19 11:32:21,407 [main] INFO  com.TestVagrant.pageObjects.wikiAbstractPage - WIKI search was successful for : Pushpa: The Rise
+2022-11-19 11:32:21,513 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1/i[text()='Pushpa: The Rise']]
+2022-11-19 11:32:21,528 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1/i[text()='Pushpa: The Rise']]
+2022-11-19 11:32:21,531 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:21,592 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:21,593 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:21,624 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:21,785 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:21,809 [main] INFO  com.TestVagrant.pageObjects.wikiDetailsPage - WIKI release date captured as : 17 December 2021
+2022-11-19 11:32:21,849 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:21,849 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:21,880 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:22,061 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:22,095 [main] INFO  com.TestVagrant.pageObjects.wikiDetailsPage - WIKI country captured as : India
+2022-11-19 11:32:28,165 [main] INFO  com.TestVagrant.utils.customUtils - Successfully navigated to site : https://www.imdb.com/
+2022-11-19 11:32:28,215 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> css selector: #home_img]
+2022-11-19 11:32:28,215 [main] INFO  com.TestVagrant.pageObjects.imdbLandingPage - IMDB Landing Page Loaded
+2022-11-19 11:32:28,274 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:28,368 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:28,405 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:28,558 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully typed [Pushpa: The Rise] on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:28,820 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[@data-testid='search-result--const']/div[contains(.,'Pushpa: The Rise')]]
+2022-11-19 11:32:32,678 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[@data-testid='search-result--const']/div[contains(.,'Pushpa: The Rise')]]
+2022-11-19 11:32:32,678 [main] INFO  com.TestVagrant.pageObjects.imdbAbstractPage - IMDB search was successful for : Pushpa: The Rise
+2022-11-19 11:32:32,742 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1[contains(.,'Pushpa: The Rise')]]
+2022-11-19 11:32:32,755 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1[contains(.,'Pushpa: The Rise')]]
+2022-11-19 11:32:32,756 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:32,795 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:32,796 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:32,827 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:33,236 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:33,504 [main] INFO  com.TestVagrant.pageObjects.imdbDetailsPage - IMDB release date captured as : 17 December 2021
+2022-11-19 11:32:33,547 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:33,547 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:33,584 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:33,725 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:33,752 [main] INFO  com.TestVagrant.pageObjects.imdbDetailsPage - IMDB country captured as : India
+2022-11-19 11:32:33,753 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: India
+2022-11-19 11:32:33,753 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: 17 December 2021
+2022-11-19 11:32:34,235 [main] INFO  com.TestVagrant.utils.customUtils - Successfully opened site : https://en.wikipedia.org/wiki/Main_Page
+2022-11-19 11:32:34,329 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: Welcome_to_Wikipedia]
+2022-11-19 11:32:34,330 [main] INFO  com.TestVagrant.pageObjects.wikiLandingPage - WIKI Landing Page Loaded
+2022-11-19 11:32:34,394 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:34,456 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:34,488 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:34,546 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully typed [Phir Hera Pheri] on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> name: search]
+2022-11-19 11:32:34,839 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: (//div[@class='suggestions-results']/a/div/span[contains(.,'Phir Hera Pheri')])[1]]
+2022-11-19 11:32:36,014 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: (//div[@class='suggestions-results']/a/div/span[contains(.,'Phir Hera Pheri')])[1]]
+2022-11-19 11:32:36,014 [main] INFO  com.TestVagrant.pageObjects.wikiAbstractPage - WIKI search was successful for : Phir Hera Pheri
+2022-11-19 11:32:36,061 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1/i[text()='Phir Hera Pheri']]
+2022-11-19 11:32:36,074 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1/i[text()='Phir Hera Pheri']]
+2022-11-19 11:32:36,074 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:36,113 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:36,113 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:36,146 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:36,311 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //div[text()='Release date']/../../td/div/ul/li]
+2022-11-19 11:32:36,334 [main] INFO  com.TestVagrant.pageObjects.wikiDetailsPage - WIKI release date captured as : 9 June 2006
+2022-11-19 11:32:36,373 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:36,373 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:36,404 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:36,572 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //th[text()='Country']//following-sibling::td[@class='infobox-data']]
+2022-11-19 11:32:36,599 [main] INFO  com.TestVagrant.pageObjects.wikiDetailsPage - WIKI country captured as : India
+2022-11-19 11:32:38,828 [main] INFO  com.TestVagrant.utils.customUtils - Successfully navigated to site : https://www.imdb.com/
+2022-11-19 11:32:38,880 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> css selector: #home_img]
+2022-11-19 11:32:38,880 [main] INFO  com.TestVagrant.pageObjects.imdbLandingPage - IMDB Landing Page Loaded
+2022-11-19 11:32:38,950 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:39,234 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:39,280 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:39,399 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully typed [Phir Hera Pheri] on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> id: suggestion-search]
+2022-11-19 11:32:39,587 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and element is clickable : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[@data-testid='search-result--const']/div[contains(.,'Phir Hera Pheri')]]
+2022-11-19 11:32:43,222 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully clicked on element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[@data-testid='search-result--const']/div[contains(.,'Phir Hera Pheri')]]
+2022-11-19 11:32:43,223 [main] INFO  com.TestVagrant.pageObjects.imdbAbstractPage - IMDB search was successful for : Phir Hera Pheri
+2022-11-19 11:32:43,351 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1[contains(.,'Phir Hera Pheri')]]
+2022-11-19 11:32:43,626 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //h1[contains(.,'Phir Hera Pheri')]]
+2022-11-19 11:32:43,626 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:43,672 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:43,673 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:43,720 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:43,929 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //a[text()='Release date']/../div/ul/li/a]
+2022-11-19 11:32:43,959 [main] INFO  com.TestVagrant.pageObjects.imdbDetailsPage - IMDB release date captured as : 9 June 2006
+2022-11-19 11:32:44,002 [main] INFO  com.TestVagrant.utils.commandUtils - Locator is present : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:44,002 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: true
+2022-11-19 11:32:44,042 [main] INFO  com.TestVagrant.utils.waitUtils - Successfully located element and the element is visible : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:44,214 [main] INFO  com.TestVagrant.utils.commandUtils - Successfully Moved to element : [[ChromeDriver: chrome on WINDOWS (e4f1305fc182fe11fd57222ca0241ec8)] -> xpath: //button[text()='Country of origin']/../div/ul/li/a]
+2022-11-19 11:32:44,247 [main] INFO  com.TestVagrant.pageObjects.imdbDetailsPage - IMDB country captured as : India
+2022-11-19 11:32:44,247 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: India
+2022-11-19 11:32:44,247 [main] INFO  com.TestVagrant.utils.assertUtils - Successfully verified result: 9 June 2006
