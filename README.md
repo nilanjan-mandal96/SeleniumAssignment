@@ -4,11 +4,11 @@
 
 Follow below steps to get DETAILED documentation
 
-1.Go to https://github.com/nilanjan-mandal96/SeleniumAssignment/tree/main
+1.	Go to https://github.com/nilanjan-mandal96/SeleniumAssignment/tree/main
 
-2.Click on branches and go to main branch
+2.	Click on branches and go to main branch
 
-3.Download the readMe.docx file for detailed and better instructions
+3.	Download the readMe.docx file for detailed and better instructions
 
 
 
